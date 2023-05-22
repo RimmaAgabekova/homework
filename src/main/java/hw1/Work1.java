@@ -2,7 +2,7 @@ package hw1;
 import java.util.Scanner;
 
 //  Вычислить n-ое треугольного число (сумма чисел от 1 до n),
-//  n! (произведение чисел от 1 до n)
+
 public class Work1 {
         public static void main(String[] args) {
             System.out.println("Введите число n: ");

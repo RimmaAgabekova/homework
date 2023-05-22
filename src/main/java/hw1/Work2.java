@@ -2,7 +2,7 @@ package hw1;
 
 import java.util.Scanner;
 public class Work2 {
-//    2) Вывести все простые числа от 1 до 1000
+//  n! (произведение чисел от 1 до n)
 
     public static void main(String[] args) {
         System.out.println("Введите факториал: ");
