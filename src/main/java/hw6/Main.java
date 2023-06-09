@@ -1,5 +1,4 @@
 package hw6;
-
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -44,7 +43,7 @@ public class Main {
             String brand = console1.nextLine().toUpperCase();
 
             notebookSet.forEach((notebook -> {
-                if(notebook.getBrand().equals(brand)) {
+                if (notebook.getBrand().equals(brand)) {
                     System.out.println(notebook.getColour());
                 }
             }));
@@ -55,15 +54,10 @@ public class Main {
             String colour = console2.nextLine().toLowerCase();
 
             notebookSet.forEach((notebook -> {
-                if(notebook.getColour().equals(colour)) {
+                if (notebook.getColour().equals(colour)) {
                     System.out.println(notebook.getBrand());
                 }
             }));
-/*
-
-            } else System.out.println("Такого цвета нет!");
- */
         }
     }
 }
-

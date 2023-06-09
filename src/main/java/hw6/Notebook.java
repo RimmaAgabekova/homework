@@ -1,10 +1,11 @@
 package hw6;
 
+
 import java.util.Objects;
 
 public class Notebook {
-         String brand;
-        String colour;
+    String brand;
+    String colour;
     public Notebook(String brand, String colour) {
         this.brand = brand;
         this.colour = colour;
@@ -43,3 +44,6 @@ public class Notebook {
         return Objects.hash(brand, colour);
     }
 }
+
+
+
