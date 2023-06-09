@@ -1,4 +1,4 @@
-package hw6;
+package homework;
 
 
 import java.util.Objects;
